@@ -41,7 +41,7 @@
   },     
   computed: {
    startAPI: function() {
-    axios.get(`http://gateway.marvel.com/v1/public/series?apikey=${public_key}`)
+    axios.get(`http(s)://gateway.marvel.com/v1/public/series?apikey=${public_key}`)
     .then((res) => {
              
         this.datas = res.data.data.results.map((items) => {          
@@ -59,10 +59,6 @@
         for(let i = 0; i < 8; i++) {
          let list = this.datas.shift();
         this.arrs.push(list);
-        }
-        
-        if (window.location.protocol !== 'https:') {
-          window.location = 'https://' + window.location.hostname + window.location.pathname + window.location.hash;
         }
         
     }).catch((e) => {
