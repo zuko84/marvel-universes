@@ -4,7 +4,7 @@
       <h1>Marvel Series</h1>   
     </div>
    <div class="row">
-    <div class="col-lg-3 col-sm-12 p-0" v-for="data in arrs" :key="data.id">
+    <div class="col-lg-3 col-md-4 col-sm-6 p-0" v-for="data in arrs" :key="data.id">
      <div class="card text-center w-100">
        <img class="card-img-top" :src="data.image" alt="Magazine">
        <div class="card-body">

@@ -22,7 +22,14 @@
     <li>
       <p>
        <span class="circle">3</span>
-       <span class="text">GitHub Pages</span>
+       <span class="text">
+        <a 
+        class="git-link"
+        target="_blank"
+        :href="link"
+        >GitHub Pages
+        </a>
+       </span>
       </p> 
     </li>   
 
@@ -35,7 +42,11 @@
 <script>
 
  export default {
-
+  data() {
+   return {
+    link: 'https://github.com/zuko84/marvel-universes'
+   }
+  }
  }
 </script>
 
@@ -88,6 +99,10 @@
   font-weight: 500;
   padding: .5rem .8rem;
   background: #000000;
+ }
+ 
+ .git-link {
+  color: #fff;
  }
  
 </style>

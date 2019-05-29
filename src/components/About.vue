@@ -6,7 +6,7 @@
   
   <div class="col-md-6 contact-us">
    <h1>Contact </h1>
-   <p>Need assistance with your Microsoft product? We’ll get you 
+   <p>Need assistance with your Marvel Information? We’ll get you 
    the help you need.</p>
    <button class="btn">Get Started</button>
   </div>
@@ -23,32 +23,31 @@
   
   <div class="col-md-4 about-column">
   <a href="#">Business, IT & developer</a>
-  <p>Small & medium businesses, enterprises & partners, 
-     IT professionals, and developers.</p>
+  <p>Get help with choosing a product, or ask about a
+  previous purchase from 
+  the online or physical store.</p>
   </div>
   
   <div class="col-md-4 about-column">
-  <a href="#">Business, IT & developer</a>
+  <a href="#">Store</a>
   <p>Small & medium businesses, enterprises & partners, 
      IT professionals, and developers.</p>
   </div>  
   
   <div class="col-md-4 about-column">
-  <a href="#">Business, IT & developer</a>
-  <p>Small & medium businesses, enterprises & partners, 
-     IT professionals, and developers.</p>
+  <a href="#">About Us</a>
+  <p>we all come to work every day because
+  we want to solve the biggest problem in mobile.</p>
   </div>  
   
   <div class="col-md-4 about-column">
-  <a href="#">Business, IT & developer</a>
-  <p>Small & medium businesses, enterprises & partners, 
-     IT professionals, and developers.</p>
+  <a href="#">Marketing</a>
+  <p>We believe there is a better way to do marketing.</p>
   </div>  
   
   <div class="col-md-4 about-column">
-  <a href="#">Business, IT & developer</a>
-  <p>Small & medium businesses, enterprises & partners, 
-     IT professionals, and developers.</p>
+  <a href="#">Disability Answer Desk</a>
+  <p>Support for people with disabilities.</p>
   </div>    
   
  </div>

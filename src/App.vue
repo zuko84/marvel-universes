@@ -69,6 +69,25 @@ body {
  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
  background: red;
 }
+
+@media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; 
+     } 
+}
+
+@media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; 
+      line-height: .5rem;
+    } 
+}
+
+@media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%;
+    } 
+}
   
   
 </style>

@@ -120,4 +120,26 @@
  .btn {
   margin-top: 3rem;
  }
+ 
+ @media only screen and (max-width: 75em) {
+
+}
+
+@media only screen and (max-width: 56.25em) {
+  .btn {
+   margin-top: 1.5rem;
+  }
+  
+  .left-side h5 {
+  letter-spacing: 1px;
+  line-height: 2rem;
+ }
+ 
+  .left-side h1 {
+  font-size: 2rem;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
+ }
+}
+
 </style>

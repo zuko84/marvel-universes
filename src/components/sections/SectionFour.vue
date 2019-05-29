@@ -77,7 +77,6 @@
    letter-spacing: 1.5px;
    padding: 3rem 0;
    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
-   
   }
  
  .zero {
@@ -107,5 +106,14 @@
   line-height: 3rem;
  }
  
- 
+@media only screen and (max-width: 75em) {
+
+}
+
+@media only screen and (max-width: 56.25em) {
+ .card-text {
+  padding: 1rem 4rem 1rem 4rem;
+  line-height: 2.5rem;
+ }
+}
 </style>
