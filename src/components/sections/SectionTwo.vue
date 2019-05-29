@@ -41,7 +41,7 @@
   },     
   computed: {
    startAPI: function() {
-    axios.get(`https://gateway.marvel.com/v1/public/series?apikey=${public_key}/`)
+    axios.get(`https://gateway.marvel.com/v1/public/series?apikey=${public_key}`)
     .then((res) => {
              
         this.datas = res.data.data.results.map((items) => {          
