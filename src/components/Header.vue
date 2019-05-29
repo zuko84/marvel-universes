@@ -58,11 +58,12 @@
 .nav-link {
  color: #fff;
  font-size: 1.3rem;
+ font-weight: 500;
 }
 
 i {
  color: #fff;
- padding: 0 1rem;
+ padding: 1rem;
 }
 
 *[data-v-61dd7a3d] {
