@@ -5,7 +5,7 @@
   </div>
   
   <div class="col-md-6 contact-us">
-   <h1>Contact Us</h1>
+   <h1>Contact </h1>
    <p>Need assistance with your Microsoft product? We’ll get you 
    the help you need.</p>
    <button class="btn">Get Started</button>
