@@ -57,10 +57,12 @@
 
 .nav-link {
  color: #fff;
+ font-size: 1.3rem;
 }
 
 i {
  color: #fff;
+ padding: 0 1rem;
 }
 
 *[data-v-61dd7a3d] {
