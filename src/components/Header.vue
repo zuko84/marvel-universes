@@ -63,7 +63,7 @@
 
 i {
  color: #fff;
- padding: 1rem;
+ padding: 1.5rem 1rem;
 }
 
 *[data-v-61dd7a3d] {
