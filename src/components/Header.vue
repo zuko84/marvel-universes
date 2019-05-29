@@ -42,11 +42,25 @@
 
 <style scoped>
 .navbar-brand {
- font-size: 2rem !important;   
+ font-size: 1.5rem !important;  
+ font-weight: 700;
+ color: #fff;
 }
 
 .navbar {
  background-color: #000000;
+}
+
+.navbar-toggler-icon {
+ background: #fff;
+}
+
+.nav-link {
+ color: #fff;
+}
+
+i {
+ color: #fff;
 }
 
 *[data-v-61dd7a3d] {
