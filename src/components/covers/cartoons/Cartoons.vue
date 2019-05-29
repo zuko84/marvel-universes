@@ -3,7 +3,7 @@
   <div class="col-md-6 col-sm-12 character-box" v-for="data in datas">
    <div class="card">
     <img class="card-img-top" :src="data.image" alt="Characters Images">
-    <div class="card-body text-center" style="height: 40rem;">
+    <div class="card-body text-center" style="height: 41rem;">
      <h5 class="card-title">{{ data.title }}</h5>
      <p class="card-text">Issue#: {{ data.issue }}</p>
      <p class="card-text">Characters: {{ data.characters}}</p>
@@ -31,7 +31,7 @@
   },     
   computed: {
    startAPI() {
-    axios.get(`http://gateway.marvel.com/v1/public/comics?apikey=${public_key}`)
+    axios.get(`https://gateway.marvel.com/v1/public/comics?apikey=${public_key}`)
     .then((res) => {
         this.datas = res.data.data.results.map((items) => {          
             return {
